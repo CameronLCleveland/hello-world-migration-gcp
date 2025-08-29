@@ -11,7 +11,7 @@ This project outlines the migration strategy for a public-facing "Hello World" a
 
 The following diagram illustrates the application's existing on-premises network topology, which is functional but carries significant risk and operational overhead.
 
-![Hello World Current On-Premises Architecture](diagrams/Cloud-Migration-HW-Before.jpeg)
+![Hello World Current On-Premises Architecture](Cloud-Migration-HW-Before.jpeg)
 
 ### Diagram Explanation & Key Issues:
 *   **Single Points of Failure:** The architecture relies on a **single database server** and a **single load balancer**. The failure of either component would cause complete application downtime.
@@ -23,7 +23,7 @@ The following diagram illustrates the application's existing on-premises network
 
 The proposed future state leverages Google Cloud Platform to create a resilient, automated, and secure infrastructure that directly addresses the limitations of the current environment.
 
-![Hello World Future State on GCP](diagrams/GCP-HW-After.jpeg)
+![Hello World Future State on GCP](GCP-HW-After.jpeg)
 
 ### Diagram Explanation & Networking Choices:
 
